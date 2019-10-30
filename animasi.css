@@ -1,0 +1,39 @@
+.anim1{
+Position:relative;
+Animation: animsatu 5s infinite;}
+@keyframes animsatu{
+From {left:0px;}
+To {left:250px;} }
+.anim2{
+Position: relative;
+Animation-name: animdua;
+Animation-delay: 2s;
+Animation-direction: alternate;
+Animation-duration: 5s;
+Animation-fill-mode: backwards;
+Animation-iteration-count: 4;
+Animation-play-state: running;
+Animation-timing-function: ease-in-out; }
+@keyframes animdua{
+From {left: 0px;}
+To {left: 250px;} }
+.transisi1{
+Width:120px;
+Height:25px;
+Background:#6600cc;
+Transition: width 2s;
+text-align: center;
+vertical-align: baseline;
+margin: auto; }
+.transisi1:hover{
+Width:300px; }
+.transisi2{
+Width:120px;
+Height:50px;
+Background:#6600cc;
+Transition-delay:0s;
+Transition-duration: 3s;
+Transition-property: all;
+Transition-timing-function: linear; }
+.transisi2:hover{
+Width:300px; }
